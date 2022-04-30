@@ -1,0 +1,110 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <style>
+      h1 {
+        display: block;
+        color: rgb(20, 20, 141);
+        font-size: 42px;
+        text-align: center;
+      }
+      h2 {
+        display: block;
+        color: rgb(5, 5, 5);
+        font-size: 36px;
+        text-align: center;
+        margin: 20px 0 20px 0;
+        padding: 5px 5px 5px 5px;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      ul {
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        padding: 0%;
+      }
+      button {
+        display: block;
+        color: rgb(236, 214, 214);
+        background: rgb(111, 111, 185);
+        font-size: 16px;
+        margin: 20px auto;
+        padding: 16px 24px;
+        border: 1px solid #1a64d6;
+        border-radius: 30px;
+        box-shadow: 10px 5px 5px #5f3f99;
+        transition: all 200ms ease;
+        line-height: 22px;
+        cursor: pointer;
+      }
+      button:hover {
+        color: rgb(52, 110, 110);
+        background: rgb(250, 245, 245);
+        border: 1px solid #1a64d6;
+      }
+      p {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      li {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 50%;
+      }
+      li:hover {
+        background: #fffbef;
+      }
+      h3 {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      h4 {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      h5 {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="humidity">
+      <h1>
+        🌩
+        <br />
+        Currently 28° in Jakarta
+      </h1>
+      <h2>25° / <strong>34°</strong></h2>
+      <ul>
+        <li>
+          <h3>🌧Tomorrow</h3>
+          <p>25° / 34°</p>
+        </li>
+        <li>
+          <h4>🌦Wednesday</h4>
+          <p>21° / 31°</p>
+        </li>
+        <li>
+          <h5>🌤Thursday</h5>
+          <p>30° / 38°</p>
+        </li>
+      </ul>
+      <button>Change City</button>
+      <p>Coded by Dhani</p>
+    </div>
+  </body>
+</html>
