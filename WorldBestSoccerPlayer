@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Hobbies</title>
+    <style>
+      h1 {
+        color: #885df1;
+        text-align: center;
+        background-color: #f6f2fe;
+      }
+      h2 {
+        color: #885df1;
+        text-align: center;
+      }
+      body {
+        background: #a5a1ac;
+      }
+      .favorite {
+        color: #272044;
+        font-size: 32px;
+        text-align: left;
+      }
+      img {
+        width: 200;
+        display: block;
+        margin: 50px auto 50px auto;
+        padding: 20px;
+        background: rgb(124, 56, 44);
+        border: 10px solid red;
+        border-radius: 30px;
+      }
+      p {
+        color: rgb(107, 78, 175);
+        display: block;
+        text-align: center;
+        font-size: 32px;
+        text-decoration: underline;
+      }
+      button {
+        display: block;
+        margin: 0 auto 30px auto;
+        padding: 15px 30px;
+        border: 1px solid;
+        border-radius: 30px;
+        color: rgb(153, 31, 102);
+        font-size: 18px;
+        background: transparent;
+        box-shadow: 10px 5px 5px #31185e;
+        transition: all 2s ease-in-out;
+      }
+      button:hover {
+        color: rgb(26, 102, 102);
+        cursor: pointer;
+        background: azure;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BlueBasil</h1>
+    <h2>
+      <button>Click Here</button>
+    </h2>
+    <ul>
+      <li>
+        <a
+          href="https://www.fcbarcelona.com/en/"
+          target="blank"
+          class="favorite"
+        >
+          <strong> Soccer </strong>
+        </a>
+      </li>
+    </ul>
+    <br />
+    <hr />
+    <p>The Greatest Player in the World</p>
+    <img
+      src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/09/22/15376472636740.jpg"
+      class="ultimate"
+    />
+  </body>
+</html>
