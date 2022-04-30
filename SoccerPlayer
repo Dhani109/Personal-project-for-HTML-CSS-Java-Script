@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoccerPlayers</title>
+    <style>
+      h1 {
+        color: rgb(8, 14, 17);
+        display: block;
+        text-align: center;
+        background: #448194;
+        font-size: 42px;
+      }
+      h2 {
+        display: block;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 100;
+      }
+      button {
+        display: block;
+        margin: 0 auto 30px auto;
+        padding: 15px 30px;
+        border: 1px solid;
+        border-radius: 30px;
+        color: rgb(30, 96, 99);
+        font-size: 18px;
+        background: transparent;
+        box-shadow: 10px 5px 5px #5f3f99;
+        transition: all 2s ease-in-out;
+      }
+      button:hover {
+        color: rgb(52, 110, 110);
+        cursor: pointer;
+        background: rgb(179, 104, 91);
+      }
+      img {
+        width: 50;
+        display: block;
+        margin: 50px auto 50px auto;
+        padding: 20px;
+        background: rgb(40, 59, 116);
+        border: 10px solid red;
+        border-radius: 30px;
+        text-align: center;
+      }
+      ul {
+        display: block;
+        text-align: center;
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        display: inline;
+        font-size: 32px;
+        font-weight: bold;
+      }
+      a {
+        display: inline;
+        text-decoration: none;
+      }
+      p {
+        font-weight: bold;
+        display: block;
+        font-size: 32px;
+        text-align: center;
+      }
+      .ultimate {
+        color: rgb(36, 36, 209);
+        margin: 20px 20px 20px 20px;
+      }
+      .Premium {
+        color: rgb(182, 17, 31);
+        margin: 20px 20px 20px 20px;
+      }
+      .Genius {
+        color: rgb(34, 143, 34);
+        margin: 20px 20px 20px 20px;
+      }
+      div {
+        text-align: center;
+        font-size: 18px;
+      }
+      span {
+        color: rgb(223, 67, 223);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Best Soccer Players</h1>
+    <h2>Ultimate List</h2>
+    <button>Check Now</button>
+    <ul>
+      <li>
+        <a
+          href="https://www.fcbarcelona.com/en/football/first-team/players/4974/lionel-messi"
+          target="blank"
+          class="ultimate"
+        >
+          Messi
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.juventus.com/en/club/corporate-governance/board/pavel-nedved"
+          target="blank"
+          class="Premium"
+        >
+          Nedved
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.fcbarcelona.com/en/card/648492/frank-rijkaard-2003-2008"
+          target="blank"
+          class="Genius"
+        >
+          Rijkaard
+        </a>
+      </li>
+    </ul>
+    <br />
+    <br />
+    <hr />
+    <p>More info</p>
+    <img
+      src="https://www.azquotes.com/picture-quotes/quote-it-s-impossible-to-be-more-of-a-footballer-than-messi-frank-rijkaard-64-9-0971.jpg"
+    />
+    <div>
+      <span>email:</span> hello@shecodes.io <span>Instagram:</span> @shecodes.io
+    </div>
+  </body>
+</html>
