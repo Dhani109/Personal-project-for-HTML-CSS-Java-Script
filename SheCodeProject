@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= initial-scale=1.0" />
+    <title>Black Tea</title>
+    <style>
+      body {
+        background: linear-gradient(
+          89.9deg,
+          rgb(208, 246, 255) 0.1%,
+          rgb(255, 237, 237) 47.9%,
+          rgb(255, 255, 231) 100.2%
+        );
+        color: rgb(10, 0, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      img {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        background: rgb(124, 79, 47);
+        border: 10px solid red;
+        border-radius: 30px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 42px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      h2 {
+        font-size: 18px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        border: 4px solid #df50df;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      ul {
+        display: block;
+        text-align: center;
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        display: block;
+        font-size: 24px;
+        font-weight: bolder;
+      }
+      a {
+        color: rgb(9, 80, 9);
+        display: block;
+        font-size: 18px;
+      }
+      p {
+        line-height: 1.5;
+        display: block;
+        font-size: 13px;
+        text-align: left;
+      }
+      .Container {
+        margin: 0;
+      }
+      span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 12px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background: rgb(94, 32, 94);
+        color: white;
+        font-size: 18px;
+        padding: 20px 30px;
+        border: 1px solid #1a64d6;
+        border-radius: 30px;
+        transition: all 200ms ease-in-out;
+        box-shadow: rgb(103, 179, 103) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+      button:hover {
+        background: white;
+        color: rgb(77, 83, 64);
+        border: 1px solid #1a641a;
+      }
+      .Right {
+        display: block;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Container">
+      <h1>Black Tea Tasting</h1>
+      <h2>Favorite Black Teas</h2>
+      <ul>
+        <li>
+          <em>
+            <a href="https://www.instagram.com/bluebasil009/" target="_blank">
+              Black Teas</a
+            >
+          </em>
+        </li>
+        <br />
+        <br />
+        <img
+          src="https://verdanttea.com/media/catalog/product/2/0/2020-black-buds-jin-jun-mei-wuyi-black-tea-0545_largex2-scaled_fnlllu6mcdww4qbv.jpg"
+        />
+        <span>picture source®Verdantea</span>
+        <br />
+        <hr />
+        <p>
+          About Black Tea (Known As Red Tea In China) Oxidization: Light to
+          strong oxidization Growing Regions: Szechuan, Yunnan, Fujian,
+          Guangdong Best Seasons To Purchase: Spring, Autumn Pharmacological
+          Elements: Selenium, vitamins C, E, A, B, flavonoid compounds, tannic
+          acid, potassium, carotene
+        </p>
+        <br />
+        <a
+          href="https://thechineseteashop.com/pages/about-black-tea"
+          target="-blank"
+          >Learn More</a
+        >
+      </ul>
+      <button class="buy-button">Buy Black Tea</button>
+      <br />
+      <span class="Right">Coded by Dhani</span>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let temperature = prompt("Do you like hot tea or ice tea?");
+        if (temperature === "hot tea") {
+          alert(name + "! You should try dark rose tea ☕!");
+        } else {
+          alert(name + "! Your should try jasmine ice tea 🍵");
+        }
+      }
+
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
